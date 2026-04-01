@@ -12,44 +12,52 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <img src="./assets/logo.gif" alt="logo-changeMoney" />
-        </header>
-        <section>
-            <div id="divConvertFrom">
-                <h1 id="convert-from">Converter de</h1>
-                <select class="select-from">R$ Real Brasileiro</select>
-                <select class="select-from">US$ Dólar Americano</select>
-                <select class="select-from">¢ Euro</select>
-                <select class="select-from">£ Libra</select>
-                <select class="select-from">₿ Bitcoin</select>
-            </div>
+    <main>
+
+        <img src="./assets/logo.gif" alt="logo-changeMoney" />
+
+        <div id="divConvertFrom">
+            <label id="convert-from">Converter <b>de</b></label>
+            <select id="select-from">
+                <option>R$ Real Brasileiro</option>
+                <option>US$ Dólar Americano</option>
+                <option>€ Euro</option>
+                <option>£ Libra</option>
+                <option>₿ Bitcoin</option>
+            </select>
+
             <div id="divConvertFor">
-                <h2 id="convert-for">Converter para</h2>
-                <select class="select-for">US$ Dólar Americano</select>
-                <select class="select-for">R$ Real Brasileiro</select>
-                <select class="select-for">¢ Euro</select>
-                <select class="select-for">£ Libra</select>
-                <select class="select-for">₿ Bitcoin</select>
+                <label id="convert-for">Converter <b>para</b></label>
+                <select id="select-for">
+                    <option>US$ Dólar Americano</option>
+                    <option>¢ Euro</option>
+                    <option>£ Libra</option>
+                    <option>₿ Bitcoin</option>
+                    <option>R$ Real Brasileiro</option>
+                </select>
             </div>
             <div id="div-valor">
-                <h3 id="valor">Valor</h3>
-                <input placeholder="Coloque aqui o valor para conversão">
+                <label id="valor">Valor
+                    <input placeholder="R$ 1.000,00" />
+                </label>
+                <button>Converter</button>
             </div>
-            <footer>
+            <section>
                 <div id="divEnd">
-                    <img id="brasil" src="./assets/brasil 2.png" alt="brasil" />
-                    <h4 class="title-end">Real</h4>
-                    <p class="paragraph-end">R$</p>
-                    <img id="arrow" src="./assets/Vector.png" alt="arrow-img" />
-                    <img id="usa" src="./assets/estados-unidos (1) 1.png" alt="usa-img" />
-                    <h5 class="title-end">Dólar Americano</h5>
-                    <p class="paragraph-end">US$</p>
+                    <img id="brasil" src="./assets/brasil 2.png" alt="img-moeda-a-converter" />
+                    <p class="title-end">Real</p>
+                    <p class="paragraph-end">R$ 0,00</p>
                 </div>
-            </footer>
-        </section>
-    </div>
+                
+                <img id="arrow" src="./assets/Vector.png" alt="arrow-img" />
+
+                <div>
+                    <img id="usa" src="./assets/estados-unidos (1) 1.png" alt="img-moeda-convertida" />
+                    <p class="title-end">Dólar Americano</p>
+                    <p class="paragraph-end">US$ 0,00</p>
+                </div>
+            </section>
+    </main>
 </body>
 
 </html>
