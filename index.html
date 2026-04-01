@@ -8,33 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>DevClub - Convert Money</title>
 </head>
 
 <body>
+
+    <img id="img-logo" src="./assets/logo.gif" alt="logo-changeMoney" />
     <main>
-
-        <img src="./assets/logo.gif" alt="logo-changeMoney" />
-
         <div id="divConvertFrom">
-            <label id="convert-from">Converter <b>de</b></label>
-            <select id="select-from">
-                <option>R$ Real Brasileiro</option>
-                <option>US$ Dólar Americano</option>
-                <option>€ Euro</option>
-                <option>£ Libra</option>
-                <option>₿ Bitcoin</option>
-            </select>
-
-            <div id="divConvertFor">
-                <label id="convert-for">Converter <b>para</b></label>
-                <select id="select-for">
+            <label id="convert-from">Converter <b>de</b>
+                <select id="select-from">
+                    <option>R$ Real Brasileiro</option>
                     <option>US$ Dólar Americano</option>
-                    <option>¢ Euro</option>
+                    <option>€ Euro</option>
                     <option>£ Libra</option>
                     <option>₿ Bitcoin</option>
-                    <option>R$ Real Brasileiro</option>
                 </select>
+            </label>
+
+            <div id="divConvertFor">
+                <label id="convert-for">Converter <b>para</b>
+                    <select id="select-for">
+                        <option>US$ Dólar Americano</option>
+                        <option>¢ Euro</option>
+                        <option>£ Libra</option>
+                        <option>₿ Bitcoin</option>
+                        <option>R$ Real Brasileiro</option>
+                    </select>
+                </label>
             </div>
             <div id="div-valor">
                 <label id="valor">Valor
@@ -48,7 +50,7 @@
                     <p class="title-end">Real</p>
                     <p class="paragraph-end">R$ 0,00</p>
                 </div>
-                
+
                 <img id="arrow" src="./assets/Vector.png" alt="arrow-img" />
 
                 <div>
