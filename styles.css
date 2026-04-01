@@ -1,6 +1,89 @@
 *{
-    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    height: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #8a51fc;
+}
+
+#img-logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    border-width: 1px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    width: 80;
+    height: 18;
+    top: 44px;
+    left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    vertical-align: middle;
+    display: block;
+    color: #777777;
+}
+
+select {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border-width: 1px;
+    background-color: #FFFFFF;
+    border-color: #BBBBBB;
+    margin: 6px auto 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    vertical-align: middle;
+    color: #555555;
+}
+
+option {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    vertical-align: middle;
+    color: #555555;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #BBBBBB;
+    margin: 6px auto 24px;  
+    line-height: 18px;
+    vertical-align: middle;
+    background-color: #FFFFFF;  
+}
+
+input::placeholder {
+    width: 100px;
+    height: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #555555;
+    vertical-align: middle;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
 }
