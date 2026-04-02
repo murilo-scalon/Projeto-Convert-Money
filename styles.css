@@ -134,7 +134,7 @@ section {
     margin: 12px auto 4px;
 }
 
-.title-end {
+.title-currency-from, .title-currency-to {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
