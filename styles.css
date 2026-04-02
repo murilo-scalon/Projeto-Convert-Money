@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    outline: none;
 }
 
 body {
@@ -77,6 +78,7 @@ input::placeholder {
     width: 100px;
     height: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 18px;
     color: #555555;
     vertical-align: middle;
