@@ -142,7 +142,7 @@ section {
     text-align: center;
 }
 
-.paragraph-end {
+.paragraph-end, .paragraph-end-value {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
